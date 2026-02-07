@@ -1,4 +1,4 @@
-Pour ce projet, j'ai mis en place un machine virtuelle grâce à vmware en host-only, 
+Pour ce projet, j'ai mis en place un machine virtuelle grâce à vmware en host-only (type rootme en local), 
 sans accès à internet et sans services expos&s hors SSH. L'attaquant peut être local ou distant 
 et est au départ un utilisateur non privilégié. J'ai établi une connexion ssh entre ma machine hôte et la vm. 
 J'ai mis en place 4 failles : un utilisateur avec un mot de passe faible appelé 'jay', un script avec 
@@ -36,6 +36,7 @@ vuln-linux-lab/
     ├── architecture.md
     ├── attack_chain.md
     └── mitigations.md
+
 
 
 

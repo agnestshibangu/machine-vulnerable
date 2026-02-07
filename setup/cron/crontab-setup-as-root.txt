@@ -1,0 +1,20 @@
+
+
+en tant que root -->
+
+cat > /opt/cronjobs/cleanup.sh << 'EOF'
+#!/bin/sh
+echo "cleanup running"
+EOF
+-----
+mkdir -p /opt/cronjobs
+chmod 777 /opt/cronjobs
+-----
+créer un fichier avec des informations sensibles
+echo "FLAG{cron_is_trusting_you}" > /root/.passwd
+chmod 600 /root/.passwd
+-----
+ajouter à crontab la ligne suivante : 
+ * * * * * root /opt/cronjobs/cleanup.sh
+
+

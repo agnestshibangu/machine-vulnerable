@@ -1,0 +1,5 @@
+installer le binaire comme root -->
+su
+mv vuln /usr/local/bin/vuln
+chown root:root /usr/local/bin/vuln
+chmod 4755 /usr/local/bin/vuln

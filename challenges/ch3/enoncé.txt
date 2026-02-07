@@ -1,0 +1,4 @@
+escalade de privilèges simple : 
+
+permettre à un utilisateur non-root de faire : /usr/local/bin/vuln
+et d'obtenir un shell root

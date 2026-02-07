@@ -16,7 +16,7 @@ vuln-linux-lab/
 │		    └── ch1
 │		    └── ch1.c 
 │   		└── private_notes.txt
-│		└── enoncé.txt
+│		    └── enoncé.txt
 │   	├── ch2/
 │		└── enoncé.txt
 │   	├── ch3/
@@ -36,6 +36,7 @@ vuln-linux-lab/
     ├── architecture.md
     ├── attack_chain.md
     └── mitigations.md
+
 
 
 

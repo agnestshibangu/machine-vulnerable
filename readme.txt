@@ -13,8 +13,8 @@ vuln-linux-lab/
 ├── README.md
 ├── challenges/
 │   	├── ch1/
-│		└── ch1
-│		└── ch1.c 
+│		    └── ch1
+│		    └── ch1.c 
 │   		└── private_notes.txt
 │		└── enoncé.txt
 │   	├── ch2/
@@ -36,6 +36,7 @@ vuln-linux-lab/
     ├── architecture.md
     ├── attack_chain.md
     └── mitigations.md
+
 
 
 
